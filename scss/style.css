@@ -279,10 +279,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 6px 20px;
-  font-size: 1em;
-  font-weight: 700;
-  color: #0e1d2b;
+  padding: 8px 20px;
+  background-color: #f8f8f8;
+  cursor: pointer;
   box-shadow: 4px 8px 6px #e16e0a;
   transition: all 0.8s;
 }
@@ -297,6 +296,13 @@ body {
   background-color: #656f79;
   box-shadow: 4px 8px 6px #814f23;
   transition: all 0.8s;
+}
+
+.home__show-link {
+  font-size: 1em;
+  font-weight: 700;
+  color: #0e1d2b;
+  line-height: 16px;
 }
 
 .home__show-img {
@@ -751,7 +757,7 @@ body {
     margin-right: 0;
   }
   .home__show-button {
-    padding: 4px 17px;
+    padding: 8px 20px;
     margin-top: 1.25em;
   }
   .contact__input,
@@ -814,7 +820,6 @@ body {
     margin-top: 1.5375em;
   }
   .home__show-button {
-    padding: 4px 17px;
     margin-top: 1.1em;
   }
   .burgers__row {
